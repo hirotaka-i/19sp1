@@ -9,6 +9,8 @@
 	sudo apt-get install -y libz-dev # for "affy"
 	apt-get install -y libxml2-dev # for "sva"
 	apt-get install -y libpython3-dev # for "reticulate"
+	sudo apt install -y python3-pip # pip
+	pip3 install numpy
 
 ### Allocate more memory
 The default 1G memory is not enough. Allocate more in VM virtual box
